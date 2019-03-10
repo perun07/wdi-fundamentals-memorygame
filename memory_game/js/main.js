@@ -41,7 +41,7 @@ var cardsInPlay = [];
   };
 
 
-function flipCard(cardId) {
+function flipCard() {
     var cardId = this.getAttribute('data-id');
  console.log("User flipped" + cards[cardId].rank);
   cardsInPlay.push(cards[cardId].rank);
